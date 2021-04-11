@@ -1,11 +1,10 @@
-import {Navbar} from '../../components/Navbar/Navbar'
-import {Banner} from '../../components/Banner/Banner'
+import {Header} from '../../components/Header/Header'
 
 export const Home =()=>{
     return(
-        <div>
-            <Navbar/>
-            <Banner/>
+        <div className="Home">
+            <Header/>
+            
         </div>
     );
 }

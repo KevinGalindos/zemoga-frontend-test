@@ -1,3 +1,4 @@
-@import "./modules/all";
-@import "./base/all";
-@import "./vendors/_all.scss";
+@import "base/reset";
+@import "modules/all";
+@import "utils/all";
+@import "vendors/all";
