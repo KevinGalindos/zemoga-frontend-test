@@ -1,0 +1,58 @@
+.Counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 54px;
+  position: relative;
+  top: -115px;
+  &.box {
+    display: flex;
+    width: 100%;
+    &_left {
+      display: flex;
+      width: 30%;
+      background: rgba(0, 0, 0, 0.4);
+      justify-content: flex-end;
+      padding: 0 10px;
+      p {
+        font-family: Lato;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 29px;
+        text-transform: uppercase;
+        color: #ffffff;
+      }
+
+      .triangle-right-shape {
+       position: relative;
+       left: 20px;
+       width: 0;
+       height: 0;
+       border-top: 7px solid transparent;
+       border-left: 10px solid rgba(0, 0, 0, 0.9);
+       border-bottom: 7px solid transparent;
+   }
+    }
+    &_right {
+      background: rgba(255, 255, 255, 0.4);
+      display: flex;
+      justify-content: flex-start;
+      padding: 0 15px;
+      gap: 5px;
+      h3 {
+        font-family: Lato;
+        font-size: 36px;
+        line-height: 43px;
+        color: #464646;
+      }
+      p {
+        font-family: Lato;
+        font-weight: 300;
+        font-size: 36px;
+        line-height: 43px;
+        color: #464646;
+      }
+    }
+  }
+}

@@ -1,4 +1,4 @@
-import './App.css';
+
 import {Home} from '../src/views/Home/Home'
 
 

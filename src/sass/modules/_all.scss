@@ -1,10 +1,16 @@
+
+//Views 
 @import "../../views/Home/Home.scss";
 
-
+//Components Home
 @import "../../components/Header/Header.scss";
+@import "../../components/Counter/Counter.scss";
+@import "../../components/Celebrities/Celebrities.scss";
+@import "../../components/AddNewName/AddNewName.scss";
 @import "../../components/Footer/Footer.scss";
 
 
+// Header components
 @import "../../components/Header/Navbar/Navbar.scss";
 @import "../../components/Header/Banner/Banner.scss";
 
