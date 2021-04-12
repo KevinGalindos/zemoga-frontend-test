@@ -33,10 +33,12 @@ export const Banner = () => {
             <h3>What’s Your Veredict?</h3>
           </div>
         </div>
+
         <div className="banner thumbs">
           <div className="banner thumbs up">
             <img src={Up} alt="ThumbsUp like" />
           </div>
+
           <div className="banner thumbs down">
             <img src={Down} alt="Down dislike" />
           </div>
