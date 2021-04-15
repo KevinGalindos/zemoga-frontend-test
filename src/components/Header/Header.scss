@@ -1,6 +1,10 @@
-.Header{
- width: 100%;
- height: 1044px;
- background-image: url("/assets/images/pope-francis.@2x.png");
- background-size: 100% 100%;
+.Header {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: -43px;
+  width: 100%;
+  height: 1044px;
+  background-image: url("/assets/images/pope-francis.@2x.png");
+  background-size: 100% 100%;
 }

@@ -7,8 +7,8 @@ export const Footer = () => {
   return (
     <div className="Footer">
       <div className="container">
-        <div className="Footer content">
-          <div className="Footer content_links">
+        <div className="Footer content-down">
+          <div className="Footer content-down_links">
             <Router>
               <div className="left">
                 <nav>
@@ -28,7 +28,7 @@ export const Footer = () => {
             </Router>
           </div>
 
-          <div className="Footer content_social-media">
+          <div className="Footer content-down_social-media">
             <div className="icon-group">
               <p>Follow us</p>
               <a href="Facebook">

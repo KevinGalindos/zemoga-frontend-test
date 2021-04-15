@@ -1,0 +1,197 @@
+.Card {
+  width: 100%;
+  &.box {
+    display: flex;
+    height: 250px;
+    padding: 0px 5%;
+
+    .picture {
+      img {
+        width: 267px;
+        height: 170px;
+        object-fit: fill;
+      }
+    }
+
+    .background {
+      background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.0001) 0%,
+        #888888 19.79%,
+        #666666 50%,
+        rgba(51, 51, 51, 0.6) 71.88%
+      );
+      transform: rotate(-90deg);
+      background-size: contain;
+      width: 170px;
+      height: 1170px;
+      position: relative;
+      bottom: 500px;
+      left: 232px;
+
+      .content-rotate {
+        transform: rotate(90deg);
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+
+        .up {
+          display: flex;
+          width: 1170px;
+          height: 117px;
+
+          &_left {
+            display: flex;
+            width: 23%;
+            justify-content: flex-start;
+
+            .indicator {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              background-color: #fbbd4a;
+              width: 45px;
+              height: 45px;
+              img {
+                width: 24px;
+                height: 24px;
+              }
+            }
+          }
+
+          &_mid {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+            width: 61%;
+            h1 {
+              font-family: Lato;
+              font-size: 36px;
+              line-height: 63px;
+              color: #ffffff;
+            }
+
+            p {
+              font-family: Lato;
+              font-size: 18px;
+              line-height: 22px;
+              color: #ffffff;
+            }
+          }
+
+          &_right {
+            display: flex;
+            flex-direction: column;
+            width: 25%;
+            justify-content: space-around;
+            align-items: flex-end;
+            padding-right: 5px;
+
+            .last-cat {
+              p {
+                font-family: Lato;
+                font-weight: bold;
+                font-size: 15px;
+                line-height: 18px;
+                text-align: right;
+                color: #ffffff;
+              }
+            }
+            .votation {
+              display: flex;
+              justify-content: space-around;
+              width: 95%;
+
+              .btn-like {
+                background: rgba(60, 187, 180, 0.8);
+                width: 45px;
+                height: 45px;
+                border-color: transparent;
+                img {
+                  width: 24px;
+                  height: 24px;
+                }
+              }
+
+              .btn-unlike {
+                width: 45px;
+                background-color: #fbbd4a;
+                border-color: transparent;
+                height: 45px;
+                img {
+                  width: 24px;
+                  height: 24px;
+                }
+              }
+              .btn-vote {
+                width: 135px;
+                height: 45px;
+                background: rgba(0, 0, 0, 0.6);
+                border: 1px solid #ffffff;
+                box-sizing: border-box;
+                font-family: Lato;
+                font-size: 18px;
+                line-height: 22px;
+                text-align: center;
+                color: #ffffff;
+              }
+            }
+          }
+        }
+        .down {
+          display: flex;
+          width: 1170px;
+          height: 54px;
+          justify-content: center;
+          align-items: center;
+
+          &_left {
+            display: flex;
+            justify-content: flex-start;
+            width: 50%;
+            align-items: center;
+            height: 100%;
+            gap: 10px;
+            padding-left: 30px;
+            background: rgba(60, 187, 180, 0.6);
+
+            img {
+              width: 24px;
+              height: 24px;
+            }
+
+            h3 {
+              font-family: Lato;
+              font-size: 27px;
+              line-height: 32px;
+              color: #ffffff;
+            }
+          }
+          &_right {
+            display: flex;
+            width: 50%;
+            justify-content: flex-end;
+            align-items: center;
+            height: 100%;
+            gap: 10px;
+            padding-right: 30px;
+            background: rgba(249, 173, 29, 0.6);
+
+            h3 {
+              font-family: Lato;
+              font-size: 27px;
+              line-height: 32px;
+              color: #ffffff;
+            }
+
+            img {
+              width: 24px;
+              height: 24px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
